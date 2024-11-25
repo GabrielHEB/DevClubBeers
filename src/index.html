@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <title>DevClub Beers</title>
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="./img/logo.png" alt="logo">
+            </a>
+
+            <nav class="navbar">
+                <a href="#">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#review">Avaliações</a>
+                <a href="#address">Endereço</a>
+            </nav>
+
+            <div class="icons">
+                <img width="24" height="30" src="https://img.icons8.com/material-rounded/30/ffffff/search.png"
+                    alt="search" id="search-icon" />
+                <a href="#cart">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+                        alt="shopping-cart" />
+                </a>
+            </div>
+        </section>
+    </header>
+
+    <div class="home-container">
+        <section id="home">
+            <div class="content">
+                <h3>A MELHOR CERVEJARIA ARTESANAL DA REGIÃO</h3>
+                <p>🍺 Bem-vindo à Melhor Cervejaria Artesanal da Região! Aqui, cada receita é criada com paixão,
+                    dedicação e ingredientes selecionados para oferecer a você uma experiência única em cada gole. Desde
+                    os sabores clássicos aos mais ousados, nossa missão é transformar a degustação de cerveja em um
+                    momento inesquecível. Venha nos visitar e descubra por que somos referência em sabor, qualidade e
+                    inovação. Sua cerveja perfeita está te esperando! 🍻.</p>
+                <a href="#" class="btn">Pegue a sua Agora</a>
+            </div>
+        </section>
+    </div>
+
+    <section class="about" id="about">
+        <h2 class="tittle">SOBRE <span>NÓS</span></h2>
+        <div class="row">
+            <div class="container-image">
+                <img src="./img/about.jpeg" alt="sobre-nos">
+            </div>
+            <div class="content">
+                <h3>O Que Faz Nossa Cerveja Especial</h3>
+                <p> O que torna nossa cerveja especial? É a combinação perfeita entre tradição e inovação! Usamos
+                    ingredientes cuidadosamente selecionados, processos artesanais e uma paixão inigualável por criar
+                    sabores únicos. Cada lote é feito com dedicação, garantindo qualidade excepcional e um aroma que
+                    desperta os sentidos. Nossa cerveja não é apenas uma bebida, é uma celebração do autêntico sabor
+                    artesanal! </p>
+                <p>Cada etapa da produção é tratada com o máximo cuidado, desde a escolha dos melhores grãos e lúpulos
+                    até a fermentação precisa e o toque final de criatividade em nossas receitas. O resultado é uma
+                    cerveja que equilibra perfeitamente sabor, aroma e textura, oferecendo uma experiência marcante a
+                    cada gole. Não é apenas cerveja, é uma obra-prima artesanal feita para os verdadeiros apreciadores!
+                </p>
+                <a href="#" class="btn">Saiba Mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h2 class="tittle">Nosso <span>Menu</span></h2>
+        <p id="search-indicator" style="color: var(--main-color); text-align: center; margin-top: 10px;"></p>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/cerveja.2.img.jpeg" alt="item-1">
+                <h3>Maltada</h3>
+                <div class="price">R$ 15,99 <span>R$ 20,99</span></div>
+                <input type="number" min="1" value="1" class="quantity">
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/cerveja.3.img.jpeg" alt="item-2">
+                <h3>Pé na areia</h3>
+                <div class="price">R$ 19,99</div>
+                <input type="number" min="1" value="1" class="quantity">
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/cerveja.4.img.jpeg" alt="item-3">
+                <h3>CoffeBeer</h3>
+                <div class="price">R$ 19,99 <span>R$ 25,99</span></div>
+                <input type="number" min="1" value="1" class="quantity">
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/cerveja.5.img.jpeg" alt="item-4">
+                <h3>Nórdica</h3>
+                <div class="price">R$ 19,99 <span>R$ 25,99</span></div>
+                <input type="number" min="1" value="1" class="quantity">
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/cerveja.6.img.jpeg" alt="item-5">
+                <h3>Cerveja Do Padre</h3>
+                <div class="price">R$ 19,99 <span>R$ 25,99</span></div>
+                <input type="number" min="1" value="1" class="quantity">
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+            <div class="box">
+                <img src="./img/cerveja.1.img.jpeg" alt="item-6">
+                <h3>Especial da casa</h3>
+                <div class="price">R$ 19,99 <span>R$ 25,99</span></div>
+                <input type="number" min="1" value="1" class="quantity">
+                <a href="#" class="btn">Adicione ao Carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="review" id="review">
+        <h2 class="tittle">Nossos <span>Clientes</span></h2>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="./img/quote-img.png" alt="quote">
+                <p>Essa cervejaria é incrível! A cerveja tem um sabor incomparável, dá pra sentir o cuidado em cada
+                    detalhe. Além disso, o ambiente é super acolhedor, perfeito pra reunir os amigos e relaxar.
+                    Recomendo demais!</p>
+                <img src="./img/comentario1.png" alt="foto-cliente" class="user">
+                <h3>João Da Silva</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/star-half-empty.png"
+                        alt="half-star" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/quote-img.png" alt="quote">
+                <p>Sem dúvidas, a melhor cervejaria que já visitei. As cervejas são espetaculares, especialmente as
+                    IPAs, que têm o equilíbrio perfeito de amargor e aroma. O atendimento também é de primeira, e o
+                    espaço tem um clima incrível. Vale muito a pena!</p>
+                <img src="./img/comentario2.png" alt="foto-cliente" class="user">
+                <h3>Felipe Sandeiro</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./img/quote-img.png" alt="quote">
+                <p>Eu simplesmente amei! As opções de cervejas artesanais são maravilhosas, com sabores únicos que não
+                    encontro em nenhum outro lugar. O ambiente é descontraído e tem uma vibe muito charmosa, ideal para
+                    curtir uma noite especial.</p>
+                <img src="./img/comentario3.png" alt="foto-cliente" class="user">
+                <h3>Juliana Melo</h3>
+                <div class="stars">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/30/ffffff/star--v1.png"
+                        alt="star" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>
+            🛒 Meu Carrinho
+            <button id="clear-cart" class="trash-button">
+                <img width="20" height="20" src="https://img.icons8.com/ios/20/ffffff/trash--v1.png" alt="trash icon" />
+            </button>
+        </h2>
+        <ul id="cart-items"></ul>
+        <p id="cart-total">Total: R$ 0,00</p>
+        <button id="checkout" class="checkout-button">Finalizar Compra</button>
+    </section>
+
+    <section class="footer">
+        <div class="share">
+            <a href="https://www.instagram.com" target="_blank">
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"
+                    alt="Instagram" />
+            </a>
+            <a href="https://www.facebook.com" target="_blank">
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/facebook-new.png"
+                    alt="Facebook" />
+            </a>
+            <a href="https://www.whatsapp.com" target="_blank">
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/whatsapp.png"
+                    alt="WhatsApp" />
+            </a>
+        </div>
+    </section>
+
+
+    <script src="cart.js"></script>
+    <script src="search.js"></script>
+</body>
+
+</html>
