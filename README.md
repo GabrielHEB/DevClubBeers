@@ -36,7 +36,8 @@ Bem-vindo ao **DevClub Beers**, um site fictício desenvolvido com **HTML**, **C
 
 ## 🔖 Deploy
 
-Você pode visualizar a aplicação do projeto através [desse link]().
+Você pode visualizar a aplicação do projeto através [desse link](https://GabrielHEB.github.io/DevClubBeers/
+).
 
 ---
 
